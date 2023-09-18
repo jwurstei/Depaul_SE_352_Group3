@@ -1,3 +1,3 @@
 # Depaul_SE_352_Group3
 
-Andrew Yum
+Andrew Yum - Major: CS Year: Senior
