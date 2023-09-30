@@ -1,0 +1,29 @@
+2023-09-29 21:45:19,423 INFO o.s.b.StartupInfoLogger [main] Starting Main using Java 17.0.2 with PID 21280 (/Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled/Group3/target/classes started by Andrew in /Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled)
+2023-09-29 21:45:19,490 INFO o.s.b.SpringApplication [main] The following 2 profiles are active: "user-database", "jwt"
+2023-09-29 21:45:27,046 INFO o.s.b.StartupInfoLogger [main] Started Main in 9.267 seconds (process running for 11.982)
+2023-09-29 22:18:55,956 INFO o.s.b.StartupInfoLogger [main] Starting Main using Java 17.0.2 with PID 22399 (/Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled/Group3/target/classes started by Andrew in /Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled)
+2023-09-29 22:18:55,980 INFO o.s.b.SpringApplication [main] The following 2 profiles are active: "user-database", "jwt"
+2023-09-29 22:21:59,137 INFO o.s.b.StartupInfoLogger [main] Starting Main using Java 17.0.2 with PID 22505 (/Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled/Group3/target/classes started by Andrew in /Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled)
+2023-09-29 22:21:59,171 INFO o.s.b.SpringApplication [main] The following 2 profiles are active: "user-database", "jwt"
+2023-09-29 22:23:37,531 INFO o.s.b.StartupInfoLogger [main] Starting Main using Java 17.0.2 with PID 22593 (/Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled/Group3/target/classes started by Andrew in /Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled)
+2023-09-29 22:23:37,552 INFO o.s.b.SpringApplication [main] The following 2 profiles are active: "user-database", "jwt"
+2023-09-29 22:31:32,933 INFO o.s.b.StartupInfoLogger [main] Starting Main using Java 17.0.2 with PID 22921 (/Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled/Group3/target/classes started by Andrew in /Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled)
+2023-09-29 22:31:32,964 INFO o.s.b.SpringApplication [main] The following 2 profiles are active: "user-database", "jwt"
+2023-09-29 22:37:53,938 INFO o.s.b.StartupInfoLogger [main] Starting Main using Java 17.0.2 with PID 23119 (/Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled/Group3/target/classes started by Andrew in /Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled)
+2023-09-29 22:37:53,960 INFO o.s.b.SpringApplication [main] The following 2 profiles are active: "user-database", "jwt"
+2023-09-29 22:47:19,298 INFO o.s.b.StartupInfoLogger [main] Starting Main using Java 17.0.2 with PID 23544 (/Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled/Group3/target/classes started by Andrew in /Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled)
+2023-09-29 22:47:19,318 INFO o.s.b.SpringApplication [main] The following 2 profiles are active: "user-database", "jwt"
+2023-09-29 22:49:41,352 INFO o.s.b.StartupInfoLogger [main] Starting Main using Java 17.0.2 with PID 23659 (/Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled/Group3/target/classes started by Andrew in /Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled)
+2023-09-29 22:49:41,372 INFO o.s.b.SpringApplication [main] The following 2 profiles are active: "user-database", "jwt"
+2023-09-29 22:49:49,980 INFO o.s.b.StartupInfoLogger [main] Started Main in 9.462 seconds (process running for 11.369)
+2023-09-29 22:52:24,878 INFO o.s.b.StartupInfoLogger [main] Starting Main using Java 17.0.2 with PID 24191 (/Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled/Group3/target/classes started by Andrew in /Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled)
+2023-09-29 22:52:24,900 INFO o.s.b.SpringApplication [main] The following 2 profiles are active: "user-database", "jwt"
+2023-09-29 22:52:35,234 INFO o.s.b.StartupInfoLogger [main] Started Main in 11.275 seconds (process running for 13.681)
+2023-09-29 23:00:33,531 INFO o.s.b.StartupInfoLogger [main] Starting Main using Java 17.0.2 with PID 24642 (/Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled/Group3/target/classes started by Andrew in /Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled)
+2023-09-29 23:00:33,554 INFO o.s.b.SpringApplication [main] The following 2 profiles are active: "user-database", "jwt"
+2023-09-29 23:03:12,211 INFO o.s.b.StartupInfoLogger [main] Starting Main using Java 17.0.2 with PID 24755 (/Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled/Group3/target/classes started by Andrew in /Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled)
+2023-09-29 23:03:12,245 INFO o.s.b.SpringApplication [main] The following 2 profiles are active: "user-database", "jwt"
+2023-09-29 23:03:22,427 INFO o.s.b.StartupInfoLogger [main] Started Main in 11.419 seconds (process running for 13.962)
+2023-09-30 14:53:48,425 INFO o.s.b.StartupInfoLogger [main] Starting Main using Java 17.0.3 with PID 21112 (C:\Users\jwurs\OneDrive\Documents\car\Depaul_SE_352_Group3-main\Group3\target\classes started by jwurs in C:\Users\jwurs\OneDrive\Documents\car\Depaul_SE_352_Group3-main)
+2023-09-30 14:53:48,432 INFO o.s.b.SpringApplication [main] The following 2 profiles are active: "user-database", "jwt"
+2023-09-30 14:53:52,288 INFO o.s.b.StartupInfoLogger [main] Started Main in 4.245 seconds (process running for 5.002)
