@@ -1,4 +1,4 @@
-package car_reservation.car;
+package Group3.demo.Reservations
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;

@@ -1,4 +1,4 @@
-package car_reservation.car;
+package Group3.demo.Reservations
 
 public class LoginForm {
     private String username;
