@@ -27,3 +27,12 @@
 2023-09-30 14:53:48,425 INFO o.s.b.StartupInfoLogger [main] Starting Main using Java 17.0.3 with PID 21112 (C:\Users\jwurs\OneDrive\Documents\car\Depaul_SE_352_Group3-main\Group3\target\classes started by jwurs in C:\Users\jwurs\OneDrive\Documents\car\Depaul_SE_352_Group3-main)
 2023-09-30 14:53:48,432 INFO o.s.b.SpringApplication [main] The following 2 profiles are active: "user-database", "jwt"
 2023-09-30 14:53:52,288 INFO o.s.b.StartupInfoLogger [main] Started Main in 4.245 seconds (process running for 5.002)
+2023-09-30 15:50:18,231 INFO o.s.b.StartupInfoLogger [main] Starting Main using Java 17.0.3 with PID 16472 (C:\Users\jwurs\OneDrive\Documents\car\Depaul_SE_352_Group3-main\Group3\target\classes started by jwurs in C:\Users\jwurs\OneDrive\Documents\car\Depaul_SE_352_Group3-main)
+2023-09-30 15:50:18,239 INFO o.s.b.SpringApplication [main] The following 2 profiles are active: "user-database", "jwt"
+2023-09-30 15:50:21,717 INFO o.s.b.StartupInfoLogger [main] Started Main in 3.805 seconds (process running for 4.344)
+2023-10-01 12:34:19,943 INFO o.s.b.StartupInfoLogger [main] Starting Main using Java 17.0.3 with PID 3612 (C:\Users\jwurs\OneDrive\Documents\car\Depaul_SE_352_Group3-main\Group3\target\classes started by jwurs in C:\Users\jwurs\OneDrive\Documents\car\Depaul_SE_352_Group3-main)
+2023-10-01 12:34:19,950 INFO o.s.b.SpringApplication [main] The following 2 profiles are active: "user-database", "jwt"
+2023-10-01 13:03:26,592 INFO o.s.b.StartupInfoLogger [main] Starting Main using Java 17.0.3 with PID 4632 (C:\Users\jwurs\OneDrive\Documents\car\Depaul_SE_352_Group3-main\Group3\target\classes started by jwurs in C:\Users\jwurs\OneDrive\Documents\car\Depaul_SE_352_Group3-main)
+2023-10-01 13:03:26,598 INFO o.s.b.SpringApplication [main] The following 2 profiles are active: "user-database", "jwt"
+2023-10-01 13:37:43,904 INFO o.s.b.StartupInfoLogger [main] Starting Main using Java 17.0.3 with PID 22048 (C:\Users\jwurs\OneDrive\Documents\car\Depaul_SE_352_Group3-main\Group3\target\classes started by jwurs in C:\Users\jwurs\OneDrive\Documents\car\Depaul_SE_352_Group3-main)
+2023-10-01 13:37:43,912 INFO o.s.b.SpringApplication [main] The following 2 profiles are active: "user-database", "jwt"
