@@ -24,3 +24,12 @@
 2023-09-29 23:03:12,211 INFO o.s.b.StartupInfoLogger [main] Starting Main using Java 17.0.2 with PID 24755 (/Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled/Group3/target/classes started by Andrew in /Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled)
 2023-09-29 23:03:12,245 INFO o.s.b.SpringApplication [main] The following 2 profiles are active: "user-database", "jwt"
 2023-09-29 23:03:22,427 INFO o.s.b.StartupInfoLogger [main] Started Main in 11.419 seconds (process running for 13.962)
+2023-10-13 16:01:11,087 INFO o.s.b.StartupInfoLogger [main] Starting Main using Java 17.0.2 with PID 8904 (/Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled/Depaul_SE_352_Group3/Depaul_SE_352_Group3-main/target/classes started by Andrew in /Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled/Depaul_SE_352_Group3)
+2023-10-13 16:01:11,107 INFO o.s.b.SpringApplication [main] The following 2 profiles are active: "user-database", "jwt"
+2023-10-13 16:01:21,727 INFO o.s.b.StartupInfoLogger [main] Started Main in 11.543 seconds (process running for 13.812)
+2023-10-13 18:20:05,973 INFO o.s.b.StartupInfoLogger [main] Starting Main using Java 17.0.2 with PID 12774 (/Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled/Depaul_SE_352_Group3/Depaul_SE_352_Group3-main/target/classes started by Andrew in /Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled/Depaul_SE_352_Group3)
+2023-10-13 18:20:06,009 INFO o.s.b.SpringApplication [main] The following 2 profiles are active: "user-database", "jwt"
+2023-10-13 18:20:15,485 INFO o.s.b.StartupInfoLogger [main] Started Main in 10.542 seconds (process running for 14.063)
+2023-10-13 20:06:26,562 INFO o.s.b.StartupInfoLogger [main] Starting Main using Java 17.0.2 with PID 15908 (/Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled/Depaul_SE_352_Group3/Depaul_SE_352_Group3-main/target/classes started by Andrew in /Users/Andrew/Desktop/CSC352/Depaul_SE_352_Group3/Untitled/Depaul_SE_352_Group3)
+2023-10-13 20:06:26,630 INFO o.s.b.SpringApplication [main] The following 2 profiles are active: "user-database", "jwt"
+2023-10-13 20:06:38,177 INFO o.s.b.StartupInfoLogger [main] Started Main in 14.554 seconds (process running for 20.342)

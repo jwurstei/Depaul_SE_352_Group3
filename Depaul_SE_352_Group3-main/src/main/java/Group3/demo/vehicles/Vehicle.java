@@ -64,10 +64,9 @@ public class Vehicle {
     this.vehicleYear = veh_year;
   }
 
-
   public String toString() {
     return "Vehicle [id=" + id + ", vehicleMake=" + vehicleMake + ", vehicleModel=" + vehicleModel + ", vehicleYear="
         + vehicleYear + "]";
   }
-  
+
 }
