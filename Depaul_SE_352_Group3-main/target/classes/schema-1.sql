@@ -1,0 +1,27 @@
+--CREATE TABLE reservations (
+--    reservation_id INT AUTO_INCREMENT PRIMARY KEY,
+--    user_id VARCHAR(255) NOT NULL,
+--    vehicle_id VARCHAR(255) NOT NULL,
+--    reservation_date VARCHAR(255) NOT NULL,
+--    pick_up_location VARCHAR(255) NOT NULL,
+--    drop_off_location VARCHAR(255) NOT NULL,
+--    reservation_status VARCHAR(255) NOT NULL,
+--    confirmation_code VARCHAR(255) NOT NULL
+--);
+
+
+--CREATE TABLE users (
+--    user_id BIGINT AUTO_INCREMENT PRIMARY KEY,
+--    user_name VARCHAR(255) NOT NULL,
+--    email VARCHAR(255) NOT NULL,
+--    full_name VARCHAR(255) NOT NULL,
+--    phone_number VARCHAR(255) NOT NULL,
+--    address VARCHAR(255) NOT NULL,
+--    password VARCHAR(255) NOT NULL
+--);
+--CREATE TABLE vehicles (
+--    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+--    veh_make VARCHAR(255) NOT NULL,
+--    veh_model VARCHAR(255) NOT NULL,
+--    veh_year INT NOT NULL
+--);
