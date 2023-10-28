@@ -1,6 +1,6 @@
 package Group3.demo.reservations.entity;
 
-import Group3.demo.User.entity.User;
+import Group3.demo.user.entity.User;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -15,7 +15,8 @@ public class Reservation {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long reservationId;
-    // Reservation ID: A unique identifier for each reservation, typically an auto-incremented integer or a unique string.
+    // Reservation ID: A unique identifier for each reservation, typically an
+    // auto-incremented integer or a unique string.
 
     @Column(name = "user_id")
     private String userId;
@@ -23,11 +24,13 @@ public class Reservation {
 
     @Column(name = "vehicle_id")
     private String vehicleId;
-    // Vehicle ID: An identifier for the specific vehicle being reserved. This can be a foreign key referencing a separate table describing the vehicles.
+    // Vehicle ID: An identifier for the specific vehicle being reserved. This can
+    // be a foreign key referencing a separate table describing the vehicles.
 
     @Column(name = "reservation_date")
     private String reservationDate;
-    // Reservation Date/Time: The date and time when the reservation was made, including both the start and end times of the reservation.
+    // Reservation Date/Time: The date and time when the reservation was made,
+    // including both the start and end times of the reservation.
 
     @Column(name = "pick_up_location")
     private String pickUpLocation;
@@ -39,9 +42,12 @@ public class Reservation {
 
     @Column(name = "reservation_status")
     private String reservationStatus;
-    // Status: Indicates the status of the reservation (e.g., confirmed, pending, canceled). You might use an enumeration or a separate status table to represent possible reservation statuses.
+    // Status: Indicates the status of the reservation (e.g., confirmed, pending,
+    // canceled). You might use an enumeration or a separate status table to
+    // represent possible reservation statuses.
 
     @Column(name = "confirmation_code")
     private String confirmationCode;
-    // Confirmation Code: A unique code or token that can be used to verify or confirm the reservation.
+    // Confirmation Code: A unique code or token that can be used to verify or
+    // confirm the reservation.
 }

@@ -1,14 +1,15 @@
-package Group3.demo.User.service;
+package Group3.demo.user.service;
 
-import Group3.demo.User.dto.ReservationDto;
-import Group3.demo.User.dto.UserDto;
-import Group3.demo.User.dto.LoginFormDto;
-import Group3.demo.User.entity.User;
-import Group3.demo.User.repository.UserRepository;
-import Group3.demo.Vehicles.entity.Vehicle;
-import Group3.demo.Vehicles.repository.VehicleRepository;
 import Group3.demo.reservations.entity.Reservation;
 import Group3.demo.reservations.repository.ReservationRepository;
+import Group3.demo.user.dto.LoginFormDto;
+import Group3.demo.user.dto.ReservationDto;
+import Group3.demo.user.dto.UserDto;
+import Group3.demo.user.entity.User;
+import Group3.demo.user.repository.UserRepository;
+import Group3.demo.vehicles.entity.Vehicle;
+import Group3.demo.vehicles.repository.VehicleRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -31,13 +32,15 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public boolean loginUser(LoginFormDto loginForm) {
-        // Method to authenticate a user's login attempt based on the provided login form data.
+        // Method to authenticate a user's login attempt based on the provided login
+        // form data.
         System.out.println(loginForm.getUserName());
         User user = userRepository.findByUserName(loginForm.getUserName());
 
         if (user != null) {
             String hashedPasswordFromDatabase = user.getPassword();
-            return passwordEncoder.matches(loginForm.getPassword(), hashedPasswordFromDatabase); // Passwords match, login successful
+            return passwordEncoder.matches(loginForm.getPassword(), hashedPasswordFromDatabase); // Passwords match,
+                                                                                                 // login successful
         }
         return false; // Either the user doesn't exist or the password doesn't match
     }
@@ -104,32 +107,33 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public boolean reserveVehicle(Long vehicleId, ReservationDto reservationDto) {
-        // Method to reserve a vehicle based on its unique identifier and reservation data. try {
-        try{
-        Vehicle vehicle = vehicleRepository.findById(vehicleId).orElse(null);
+        // Method to reserve a vehicle based on its unique identifier and reservation
+        // data. try {
+        try {
+            Vehicle vehicle = vehicleRepository.findById(vehicleId).orElse(null);
 
-                    if (vehicle != null && !vehicle.isBooked()) {
-                        // Check if the vehicle exists and is not already reserved
-                        vehicle.reserve(); // Set isBooked to true
-                        vehicleRepository.save(vehicle); // Save the updated vehicle
+            if (vehicle != null && !vehicle.isBooked()) {
+                // Check if the vehicle exists and is not already reserved
+                vehicle.reserve(); // Set isBooked to true
+                vehicleRepository.save(vehicle); // Save the updated vehicle
 
-                        Reservation reservation = Reservation.builder()
-                                .userId(reservationDto.getUserId())
-                                .vehicleId(vehicleId.toString())
-                                .reservationDate(reservationDto.getReservationDate())
-                                .pickUpLocation(reservationDto.getPickUpLocation())
-                                .dropOffLocation(reservationDto.getDropOffLocation())
-                                .reservationStatus("pending")
-                                .confirmationCode("")
-                                .build();
-                        reservationRepository.save(reservation);
-                        return true;
-                    } else {
-                        return false; // Vehicle not found or already reserved
-                    }
-                } catch (Exception e) {
-                    return false;
-                }
+                Reservation reservation = Reservation.builder()
+                        .userId(reservationDto.getUserId())
+                        .vehicleId(vehicleId.toString())
+                        .reservationDate(reservationDto.getReservationDate())
+                        .pickUpLocation(reservationDto.getPickUpLocation())
+                        .dropOffLocation(reservationDto.getDropOffLocation())
+                        .reservationStatus("pending")
+                        .confirmationCode("")
+                        .build();
+                reservationRepository.save(reservation);
+                return true;
+            } else {
+                return false; // Vehicle not found or already reserved
+            }
+        } catch (Exception e) {
+            return false;
+        }
     }
 
     @Override

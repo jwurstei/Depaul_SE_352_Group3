@@ -1,4 +1,4 @@
-package Group3.demo.Vehicles.entity;
+package Group3.demo.vehicles.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -13,12 +13,14 @@ import lombok.NoArgsConstructor;
 @Builder
 @Table(name = "vehicles")
 public class Vehicle {
-    // This class represents a JPA Entity for storing vehicle-related data in a database.
+    // This class represents a JPA Entity for storing vehicle-related data in a
+    // database.
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    // A field to hold the unique identifier for each vehicle. It's generated automatically.
+    // A field to hold the unique identifier for each vehicle. It's generated
+    // automatically.
 
     @Column(name = "veh_make")
     private String vehicleMake;
@@ -44,30 +46,33 @@ public class Vehicle {
     private int millage;
     // A field to hold the mileage of the vehicle.
 
-
     public void reserve() {
         this.isBooked = true;
     }
-
-
-
-
-
-
 
     // The class is annotated with JPA annotations for entity mapping.
 
     // Importance of Having an Entity class:
 
-    // 1. Database Persistence: The entity class defines the structure and mapping of data to the database, allowing data to be stored and retrieved.
+    // 1. Database Persistence: The entity class defines the structure and mapping
+    // of data to the database, allowing data to be stored and retrieved.
 
-    // 2. Data Validation: Entity classes often include validation constraints to ensure data integrity, although it's not seen in this example.
+    // 2. Data Validation: Entity classes often include validation constraints to
+    // ensure data integrity, although it's not seen in this example.
 
-    // 3. Object-Relational Mapping (ORM): The entity class provides a bridge between the object-oriented application and the relational database, facilitating data access and management.
+    // 3. Object-Relational Mapping (ORM): The entity class provides a bridge
+    // between the object-oriented application and the relational database,
+    // facilitating data access and management.
 
-    // 4. Entity Relationships: Entities can establish relationships with other entities, such as reservations, allowing for modeling complex data structures.
+    // 4. Entity Relationships: Entities can establish relationships with other
+    // entities, such as reservations, allowing for modeling complex data
+    // structures.
 
-    // 5. Querying and Data Retrieval: Entities enable data querying and retrieval through JPA, making it easy to perform database operations.
+    // 5. Querying and Data Retrieval: Entities enable data querying and retrieval
+    // through JPA, making it easy to perform database operations.
 
-    // In this case, the `Vehicle` entity is used for representing vehicle data, including details like make, model, year, price, reservation status, and mileage. This entity class is essential for storing and managing vehicle-related information in the application.
+    // In this case, the `Vehicle` entity is used for representing vehicle data,
+    // including details like make, model, year, price, reservation status, and
+    // mileage. This entity class is essential for storing and managing
+    // vehicle-related information in the application.
 }

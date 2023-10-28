@@ -1,4 +1,4 @@
-package Group3.demo.User;
+package Group3.demo.user;
 /**
  * Stuff
  * <ul>

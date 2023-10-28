@@ -1,14 +1,16 @@
-package Group3.demo.Vehicles.repository;
+package Group3.demo.vehicles.repository;
 
-import Group3.demo.Vehicles.entity.Vehicle;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
+
+import Group3.demo.vehicles.entity.Vehicle;
 
 import java.util.List;
 
 @Repository
 public interface VehicleRepository extends CrudRepository<Vehicle, Long> {
+    // 
     // This interface defines a repository for performing database operations related to the `Vehicle` entity.
 
     public List<Vehicle> findAllByVehicleMake(String vehicleMake);
@@ -28,15 +30,27 @@ public interface VehicleRepository extends CrudRepository<Vehicle, Long> {
 
     // Importance of the Repository Interface:
 
+    // 
+    // 
     // 1. Data Access Abstraction: The repository interface abstracts data access operations, allowing the application to interact with the database without having to write SQL queries explicitly.
 
+    // 
+    // 
     // 2. Query Methods: Query methods, such as `findAllByVehicleMake`, `findAllByVehicleModel`, and others, provide a convenient way to retrieve data from the database based on specific criteria.
 
+    // 
+    // 
     // 3. Code Organization: The repository interface helps organize database-related code in a structured manner, making it more maintainable and easier to navigate.
 
+    // 
     // 4. Standardization: It defines a set of standardized methods for common data access patterns, promoting consistency in database operations.
 
+    // 
+    // 
     // 5. Integration with Spring Data: Spring Data JPA, as indicated by `CrudRepository`, provides automatic implementations for these methods, reducing the amount of boilerplate code required.
 
+    // 
+    // 
+    // 
     // In this case, the `VehicleRepository` interface defines methods for querying vehicle data based on various criteria, such as make, model, year, and reservation status. It simplifies the process of retrieving and managing vehicle-related information from the database.
 }
