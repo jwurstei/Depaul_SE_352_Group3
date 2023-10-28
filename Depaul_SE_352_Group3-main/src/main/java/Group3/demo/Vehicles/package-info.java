@@ -9,4 +9,4 @@
  * 
  * @Author Andrew Yum
  */
-package Group3.demo.Vehicles;
+package Group3.demo.vehicles;

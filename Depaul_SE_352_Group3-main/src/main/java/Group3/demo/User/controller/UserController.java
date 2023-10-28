@@ -1,10 +1,12 @@
-package Group3.demo.User.controller;// Import necessary packages
-import Group3.demo.User.dto.ReservationDto;
-import Group3.demo.User.dto.SearchDto;
-import Group3.demo.User.dto.UserDto;
-import Group3.demo.User.dto.LoginFormDto;
-import Group3.demo.User.service.UserService;
-import Group3.demo.Vehicles.entity.Vehicle;
+package Group3.demo.user.controller;// Import necessary packages
+
+import Group3.demo.user.dto.LoginFormDto;
+import Group3.demo.user.dto.ReservationDto;
+import Group3.demo.user.dto.SearchDto;
+import Group3.demo.user.dto.UserDto;
+import Group3.demo.user.service.UserService;
+import Group3.demo.vehicles.entity.Vehicle;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.HashMap;
@@ -13,7 +15,8 @@ import java.util.Map;
 
 @RestController
 @RequestMapping(value = "/users")
-@CrossOrigin(origins = "http://localhost:3000") // Enable Cross-Origin Resource Sharing (CORS) for requests from localhost:3000
+@CrossOrigin(origins = "http://localhost:3000") // Enable Cross-Origin Resource Sharing (CORS) for requests from
+                                                // localhost:3000
 
 public class UserController {
     @Autowired
@@ -74,12 +77,15 @@ public class UserController {
         // Call the userService to reserve a vehicle and get the result (true/false)
         return userService.reserveVehicle(vehicleId, reservationDto);
     }
+
     @GetMapping("/available")
     public List<Vehicle> getAvailableVehicles() {
-        // Define a method to handle an HTTP GET request to retrieve a list of available vehicles.
+        // Define a method to handle an HTTP GET request to retrieve a list of available
+        // vehicles.
         return userService.getAvailableVehicles();
         // Call the userService to fetch and return a list of available vehicles.
-        // The method name "getAvailableVehicles" implies that it filters and returns vehicles that are currently available for reservation.
+        // The method name "getAvailableVehicles" implies that it filters and returns
+        // vehicles that are currently available for reservation.
     }
 
 }

@@ -1,4 +1,4 @@
-package Group3.demo.User.dto;
+package Group3.demo.user.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,7 +10,8 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 public class SearchDto {
-    // This class represents a Data Transfer Object (DTO) used for transferring search-related data.
+    // This class represents a Data Transfer Object (DTO) used for transferring
+    // search-related data.
 
     private String searchTerm;
     // A field to hold the search term or query provided for searching.

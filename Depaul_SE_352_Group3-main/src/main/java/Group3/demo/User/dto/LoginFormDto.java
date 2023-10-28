@@ -1,4 +1,4 @@
-package Group3.demo.User.dto;
+package Group3.demo.user.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -10,7 +10,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 public class LoginFormDto {
-    // This class represents a Data Transfer Object (DTO) used for transferring login-related data.
+    // This class represents a Data Transfer Object (DTO) used for transferring
+    // login-related data.
 
     private String userName;
     // A field to hold the username provided during the login process.
