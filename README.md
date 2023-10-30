@@ -2,4 +2,3 @@
 
 Andrew Yum - Major: CS Year: Senior<br />
 Jake Wursteisen - Major: CS <br />
-Sandeep Turpatti - Major: CS
