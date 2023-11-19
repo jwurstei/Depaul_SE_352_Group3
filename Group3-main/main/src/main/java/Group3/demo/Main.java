@@ -1,4 +1,6 @@
 package Group3.demo;
+// Jake Wursteisen
+// Andrew Yum
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
