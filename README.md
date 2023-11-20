@@ -3,7 +3,11 @@
 Andrew Yum - Major: CS Year: Senior<br />
 Jake Wursteisen - Major: CS <br />
 <br />
-#### Milestone #3: <ln />
-###### Sandeep left the group. <ln /r>
+#### Milestone #3: <br />
+###### Sandeep left the group. <br />
 ###### We are having package renaming issues in GitHub.
 ###### Introduced decoupling, added services layers, controllers. 
+
+#### Milestone #4:
+###### Had trouble introducing MrSQL and abandoned it.
+###### Introduced Fault Handling and server-side validation with logging via RESTful service.
