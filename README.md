@@ -11,3 +11,5 @@ Jake Wursteisen - Major: CS <br />
 #### Milestone #4:
 ###### Had trouble introducing MrSQL and abandoned it.
 ###### Introduced Fault Handling and server-side validation with logging via RESTful service.
+###### Fixed the erroneous subdirectories.
+###### Updated the project using conventional java naming standards.
