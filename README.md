@@ -9,7 +9,7 @@ Jake Wursteisen - Major: CS <br />
 ###### Introduced decoupling, added services layers, controllers. 
 
 #### Milestone #4:
-###### Had trouble introducing MrSQL and abandoned it.
+###### Had trouble introducing MySQL and abandoned it.
 ###### Introduced Fault Handling and server-side validation with logging via RESTful service.
 ###### Fixed the erroneous subdirectories.
 ###### Updated the project using conventional java naming standards.
